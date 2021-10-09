@@ -15,4 +15,9 @@ const deleteContact = (contactId, name) => ({
   payload: { contactId, name },
 });
 
-export default { formSubmitHandler, deleteContact };
+const changeFilter = value => ({
+  type: types.CHANGE_FILTER,
+  payload: value,
+});
+
+export default { formSubmitHandler, deleteContact, changeFilter };
