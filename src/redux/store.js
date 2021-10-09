@@ -3,7 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import contactReducer from './contact-app/contact-reducer';
 
 const rootReducer = combineReducers({
-  conntacts: contactReducer,
+  contacts: contactReducer,
 });
 
 const store = createStore(rootReducer, composeWithDevTools());
