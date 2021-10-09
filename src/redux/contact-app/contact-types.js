@@ -4,8 +4,8 @@
 
 // export default { SAVE, DELETE, CHANGE_FILTER };
 
-export default {
-  ADD: 'contact/add',
-  DELETE: 'contact/delete',
-  CHANGE_FILTER: 'contact/changeFilter',
-};
+// export default {
+//   ADD: 'contact/add',
+//   DELETE: 'contact/delete',
+//   CHANGE_FILTER: 'contact/changeFilter',
+// };
