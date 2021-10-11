@@ -33,6 +33,7 @@ const store = configureStore({
   reducer: {
     contacts: persistReducer(contactsPersistConfig, contactReducer),
   },
+
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {
